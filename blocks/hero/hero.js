@@ -3,6 +3,6 @@ export default function decorate(block) {
   const text = '\nText from Hero block scrip, have fun..!';
   if (h1) {
     const h1Text = h1.innerText;
-    h1.innerText = h1Text + `${text}`;
+    h1.innerText = h1Text + text;
   }
 }
